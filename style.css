@@ -1,0 +1,52 @@
+<style>
+.container {
+margin="50%";
+position: relative;
+    }
+
+ .img { width:"100%" ;
+height:"40%";
+opacity :0.3;
+}
+
+.topleft {
+position: absolute;
+top: 8px;
+left: 17px;
+font-size: 100px;
+font-family: "Times New Roman";
+color: white;
+ }
+
+.button{
+margin:10%;
+position:relative;
+align-items:centre;
+padding-top: 500px;
+}
+
+
+ .icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
+.align-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-content {
+  display: flex;
+}
+
+mat-icon {
+  margin-right: 10px;
+}
+
+.align-text-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    </style>
